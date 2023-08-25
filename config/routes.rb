@@ -3,6 +3,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  get '/toggles' => 'toggle#index'
   get '/toggles/:toggle_name' => 'toggle#check_toggle'
 end
