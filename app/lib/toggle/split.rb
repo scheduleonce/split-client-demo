@@ -46,9 +46,9 @@ module Toggle
         metrics_refresh_rate: 360,
         impressions_refresh_rate: 360,
         events_push_rate: 360,
-        debug_enabled: false,
+        debug_enabled: true,
         transport_debug_enabled: false,
-        ip_addresses_enabled: false,
+        ip_addresses_enabled: true,
         logger: SplitLogger,
         impressions_mode: :optimized
       }
